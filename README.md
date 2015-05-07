@@ -30,4 +30,4 @@ yo sww-generator <name_of_your_middleware>
 
 ## License
 
-MIT
+MPL
