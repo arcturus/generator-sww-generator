@@ -5,42 +5,28 @@
 
 ## Getting Started
 
-### What is Yeoman?
+This is a [yeoman](http://yeomain.io) generator to help you create middelware for [ServiceWorkerWare](http://github.com/arcturus/serviceworkerware), a tool to help your
+development with ServiceWorkers.
 
-Trick question. It's not a thing. It's this guy:
+### How do I use this
 
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+You will need Yeoman installed:
 
 ```bash
 npm install -g yo
 ```
 
-### Yeoman Generators
+Install this generator:
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-sww-generator from npm, run:
-
-```bash
+```
 npm install -g generator-sww-generator
 ```
 
-Finally, initiate the generator:
+Now you are ready for using yeoman to create the basic template for your middleware:
 
-```bash
-yo sww-generator
 ```
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
+yo sww-generator <name_of_your_middleware>
+```
 
 ## License
 
